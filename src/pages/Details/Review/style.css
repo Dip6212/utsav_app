@@ -1,0 +1,140 @@
+ .review_section{
+box-sizing: border-box;
+align-items: center;
+padding: 80px 30px;
+background: #1A1A1A;
+border: 1px solid #262626;
+border-radius: 12px;
+}
+
+.review_section .slick-slider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review_section .slick-list{
+    order: 1;
+}
+
+.review_section .fa-arrow-right {
+    position: static;
+    margin-top: 11px;
+    width: 40px;
+    height: 40px;
+    order: 4;
+    padding: 5px;
+    margin-left: 5px;
+    background: #141414;
+    border: 1px solid #262626;
+    z-index: 5;
+    border-radius: 100%;
+    color: #fff;
+}
+.review_section .fa-arrow-left {
+    position: static;
+    margin-top: 11px;
+    margin-right: 5px;
+    width: 40px;
+    padding: 5px;
+    height: 40px;
+    order: 2;
+    background: #141414;
+    border: 1px solid #262626;
+    z-index: 5;
+    border-radius: 100%;
+    color: #fff;
+}
+
+.review_section .slick-dots{
+    position: static;
+    margin-top: 25px;
+    width: fit-content;
+    order: 3;
+    z-index: 5;
+}
+
+.review_section .slick-dots::before{
+    display: none;
+}
+
+.review_section .slick-dots li{
+    margin: 0 2px;
+}
+
+.review_section .slick-dots li button:before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: var(--btn-color);
+} 
+
+.review_title_section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.review_item{
+display: flex;
+margin: 0 10px;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+gap: 20px;
+
+width: 95% !important;
+min-height: 230px;
+
+/* Black/06 */
+background: #0F0F0F;
+/* Black/15 */
+border: 1px solid #262626;
+border-radius: 12px;
+
+}
+
+.author_section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.author_section h5{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.review_content p{
+
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+}
+
+svg.star-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.review_btn{
+display: flex;
+align-items: center;
+padding: 14px 16px;
+gap: 4px;
+/* Black/08 */
+background: #141414;
+/* Black/15 */
+border: 1px solid #262626;
+border-radius: 8px;
+color: #fff;
+cursor: pointer;
+transition: all 0.25s ease;
+}
+
+.review_btn:hover{
+    background-color: #fff;
+    color: #0F0F0F;
+} 

@@ -1,0 +1,56 @@
+
+
+
+
+
+.Hero_Banner{
+    background-image: url("../../../assets/Home_banner.png");
+     min-height: 860px;
+     position: relative;
+}
+
+.Hero_Banner::before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(360deg, rgba(0,0,0,0) 12%, rgba(20,20,20,1) 100%);
+    z-index: 1;
+}
+.Hero_Banner::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 12%, rgba(20,20,20,1) 100%);
+    z-index: 1;
+}
+
+/* .Hero_Banner_Content{
+ 
+} */
+
+.Hero_Banner_Content {
+    margin-top: -120px;
+    position: relative;
+    z-index: 1;
+}
+
+.Banner_content_wrap{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/************ responsive ****************/
+

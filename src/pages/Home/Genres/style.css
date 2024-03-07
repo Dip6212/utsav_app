@@ -1,0 +1,96 @@
+/* .genre_carousal_section .fa-arrow-left{
+    position: absolute;
+    top: -60px;
+    right: 135px;
+    z-index: 5;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 14px;
+gap: 10px;
+
+width: 15px;
+height: 15px;
+
+
+background: #1A1A1A;
+
+color: #fff;
+border: 1px solid #1F1F1F;
+border-radius: 8px;
+}
+.genre_carousal_section .fa-arrow-right{
+    position: absolute;
+    top: -60px;
+    right: 15px;
+    z-index: 5;
+    
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 14px;
+gap: 10px;
+
+width: 15px;
+height: 15px;
+
+
+background: #1A1A1A;
+
+color: #fff;
+border: 1px solid #1F1F1F;
+border-radius: 8px;
+}
+
+.genre_carousal_section ul.slick-dots {
+    position: absolute;
+    top: -52px;
+    bottom: auto;
+    right: 5px;
+    width: auto;
+}
+
+.genre_carousal_section ul.slick-dots::before {
+    content: "";
+    position: absolute;
+    top: -13px;
+    right: -43.5px;
+    z-index: -1;
+    height: 40px;
+    width: calc(100% + 85px);
+    background-color: #0F0F0F;
+}
+
+.genre_carousal_section .slick-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.genre_carousal_section .button .fa-arrow-left {
+    order: 1;
+}
+
+.genre_carousal_section .slick-dots li button:before{
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: var(--btn-color);
+}
+.genre_carousal_section .button .fa-arrow-right {
+    order: 3;
+}
+
+.genre_carousal_section .slick-dots {
+    order: 2;
+}
+
+.genre_carousal_section .slick-list {
+    order: 4;
+}
+
+.genre_carousal_section .slick-dots li{
+    margin: 0 2px;
+} */
